@@ -1,0 +1,16 @@
+##############################################################
+# Fichier d'aide pour utiliser le site "BDWebAdmin"	         #
+# Cours de BDW1 - Bases de données et programmation web      #
+# Nicolas LUMINEAU, Université Claude Bernard Lyon 1 - 2022  #
+##############################################################
+
+
+Pour utiliser ce site sur le serveur de l'UE (bdw1.univ-lyon1.fr), quatre étapes :
+
+- se connecter à PHPMyAdmin, choisir l'onglet "importer", et importer le fichier "bd.sql". Cela doit créer les tables dans votre BD.
+
+- éditer le fichier "includes/config-bd.php" et modifier les valeurs des constantes "UTILISATEUR", "MOTDEPASSE" et "BDD".
+
+- envoyer le répertoire "BDWebAdmin" sur le serveur (soit avec scp ou rsync en ligne de commande, soit avec un outil graphique comme FileZilla).
+
+- ouvrir un navigateur et saisir l'url "http://bdw1.univ-lyon1.fr/p1234567/BDWebAdmin/"
